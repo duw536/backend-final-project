@@ -1,0 +1,41 @@
+.card-archive-container {
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 20px;             
+  padding: 20px;
+  width: 100%;           
+  box-sizing: border-box;
+}
+
+.card {
+  flex: 0 0 200px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  height: 200px;
+}
+
+.create-card {
+  background-color: #fbfbfb;
+}
+
+.card-icon {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-icon img {
+  margin-top: 60px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.card-text {
+  margin-top: auto;
+}

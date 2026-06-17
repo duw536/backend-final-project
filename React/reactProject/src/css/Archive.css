@@ -1,0 +1,141 @@
+.archive-main-container { display: flex; gap: 5px; }
+
+.archive-box { border: 1px solid gray; background-color: #fbfbfb; box-sizing: border-box; }
+
+.archive-left-menu { 
+    height: 800px; 
+    width: 200px; 
+    border: 1px solid gray;
+    background-color: #fbfbfb;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 12px;
+    padding: 10px;
+}
+
+.archive-right-menu { height: 800px; width: 200px; }
+
+.archive-middle-menu { 
+  flex-grow: 1; 
+  display: flex; 
+  flex-direction: column; 
+}
+
+.archive-mid-header { 
+  height: 40px; 
+  display: flex; 
+  align-items: center; 
+  gap: 5px; 
+  padding: 0 10px; 
+  margin-top: 20px; 
+}
+
+.archive-leftAlign {
+  margin-right: auto;
+}
+
+.archive-mid-content { 
+  height: 180px; 
+  display: none; 
+  background-color: #f0f0f0; 
+}
+
+.archive-mid-display { 
+  height: 300px;
+}
+
+.archive-toggle-btn {
+  cursor: pointer;
+  padding: 2px 10px;
+  background: white;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+
+.archive-searchbar { 
+  display: flex; 
+  max-width: 600px; 
+  margin: 20px auto; 
+}
+
+.archive-search-box { 
+  flex-grow: 1; 
+  height: 32px; 
+  padding: 0 10px; 
+  border: 1px solid #ccc; 
+  border-right: none; 
+  border-radius: 4px 0 0 4px; 
+  box-sizing: border-box; 
+}
+
+.archive-menu-item { 
+  height: 32px; 
+  padding: 0 15px; 
+  border: 1px solid #ccc; 
+  background-color: #f8f8f8; 
+  border-radius: 0 4px 4px 0; 
+  box-sizing: border-box; 
+  cursor: pointer; 
+}
+
+.archive-left-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.2s;
+}
+
+.archive-left-card:hover {
+    background-color: #f0f0f0;
+}
+
+.archive-left-card-icon {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.archive-left-card p {
+    font-size: 11px;
+    margin: 0;
+    text-align: center;
+}
+
+.archive-member-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+}
+
+.archive-member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.archive-member-name {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.archive-member-role {
+    font-size: 11px;
+    color: #888;
+    margin: 2px 0 0 0;
+}

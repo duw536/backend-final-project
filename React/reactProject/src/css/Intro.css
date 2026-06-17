@@ -1,0 +1,68 @@
+.intro-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+}
+
+.intro-left-menu, .intro-right-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.intro-middle-menu {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 20px;
+}
+
+.intro-middle-menu .intro-menu-item {
+  height: 32px;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.intro-search-box {
+  flex-grow: 1;
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  box-sizing: border-box;
+}
+
+.intro-toggle-group .intro-select {
+  height: 32px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.intro-select {
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.intro-toggle-btn {
+  height: 100%;
+  border: none;
+  background: none;
+  padding: 0 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
